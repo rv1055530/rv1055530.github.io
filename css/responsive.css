@@ -1,0 +1,79 @@
+@media(max-width:1200px){
+.container {max-width:100%; padding: 0 15px;}
+.features_mid {width: 52%;}  
+.features_lft {width: 24%;}
+.features_rgt   {width: 24%;}
+    
+}
+@media(max-width:1024px){
+.logo p span {display: inline;}
+.features_in_in   {padding:35px 0 0;}
+.features_in_in ul li {padding: 30px 0;}
+.features_in_in ul li p {font-size:20px; line-height:32px;}
+.footer_lft {width:46%;}
+.footer_lft ul li {padding: 0 35px 0 0;}
+.footer_mid {width: 24%;}
+.footer_mid ul li {padding: 0 15px}
+.footer_rgt {width: 30%;}
+
+}
+@media(max-width:767px){
+.header_in {padding: 50px 0 0; max-width: 100%;}
+.logo p span, .features_in p span, .exercise_in p span {display: inline;}    
+.banner:after, .exercise_block:after {height: 60px;}
+.features_in_in ul li {padding: 20px 0;}
+.features_in_in ul li h5 {font-size: 18px; line-height: 18px; padding: 0 0 5px;}
+.features_in_in ul li p {font-size:16px; line-height: 24px;}
+.exercise_in {max-width: 100%; margin: 0 auto 30px; text-align: center;}
+.exercise_btm .exercise_in {text-align: center;}
+.footer_in {padding: 25px 0;}
+.footer_top {padding: 0 0 30px;}
+.footer_top h2 {padding: 0 0 30px;}
+.footer_btm {text-align: center;}
+.footer_lft {width:100%; display: block; padding: 0 0 15px; float: none;}
+.footer_lft ul li {padding:10px 0; display: block;}
+.footer_mid {width:100%;  display: block; padding: 0 0 20px; float: none;}
+.footer_mid ul li {padding:0 15px;}
+.footer_rgt {width:100%;  display: block; text-align: center; float: none; padding: 0;}
+.banner_pos {top: auto; transform: none; -webkit-transform: none; bottom: 20%; z-index: 2;}
+    
+    .footer_top > a, .banner_pos a, .footer_mid ul li a {width: auto; height: auto;}
+
+}
+@media(max-width:599px){
+.logo p {font-size:20px; line-height:32px;}
+.logo a span {font-size: 50px; line-height: 50px;} 
+.logo img {width: 42px; }
+.banner figure img {height: 450px; object-fit: cover;}
+.features_mid {width:100%;}  
+.features_in_in {padding: 0; max-width: 300px; margin: 0 auto;}
+.features_in_in ul li{padding: 10px 0; }
+.features_in_in ul li h5 {font-size:20px; line-height:20px; padding: 0 0 10px;}
+.features_in_in ul li p {font-size:20px; line-height:32px;}
+.features_lft {width: 100%; float: none; text-align: center;}
+.features_rgt   {width:100%; float: none; text-align: center;}
+.features_in p {font-size: 20px; line-height: 32px; padding: 0 0 30px;}
+.exercise_in p  {font-size:20px; line-height: 32px;}
+.footer_top h2 {font-size: 40px; line-height: 40px;}
+.footer_top a img {width: 210px;}
+.banner_pos a img {width: 160px;}
+.exercise_block:after{top: 25%;}
+.exercise_btm.exercise_block:after {top: 60%;}
+
+}
+@media(max-width:479px){
+.logo p {font-size: 16px; line-height: 24px;}
+.logo a span {font-size: 30px; line-height: 30px; margin:10px 0;}
+.banner figure img {height: 320px;}
+.banner:after {bottom: 10%;}
+.banner_pos a {}
+.features_in h2 {font-size: 30px; line-height: 30px; padding: 0 0 15px;}
+.features_in p{font-size: 16px; line-height: 24px;}
+.features_in_in ul li p {font-size: 16px; line-height: 24px}
+.exercise_in h2 {font-size: 30px; line-height: 30px; padding: 0 0 15px;}
+.exercise_in p  {font-size: 16px; line-height: 24px;}
+.footer_top h2 {font-size:30px; line-height:30px;}
+.footer_top h2 a span {right: -20px; width: 35px;}
+.banner_pos {bottom: 11%;}
+
+}
